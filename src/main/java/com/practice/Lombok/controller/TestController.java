@@ -23,7 +23,7 @@ public class TestController {
     public String getaman(){
         User user= new User();
         user.setName("Aman");
-        user.setAge(20);
+        user.setAge(30);
         return user.toString();
     }
     //PathParam
